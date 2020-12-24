@@ -19,7 +19,6 @@ interface Tab extends Item {
 const TabNavigation: React.FC<Tab> = ({ itemTabs, ...rest }) => {
   const navigation = useNavigation();
   const route = useRoute();
-  console.log(route.name);
 
   return (
     <Container>

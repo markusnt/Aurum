@@ -21,7 +21,6 @@ const Profile: React.FC = () => {
     dispatch(signOut());
   }
 
-  console.log(userDate);
 
   return (
     <>

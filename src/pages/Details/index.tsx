@@ -53,7 +53,7 @@ const Details: React.FC = () => {
   };
 
   const handleSort = () => {
-    
+
   };
 
   return (

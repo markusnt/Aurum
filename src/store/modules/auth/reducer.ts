@@ -12,7 +12,6 @@ const auth: Reducer<AuthState> = (state = INITIAL_STATE, action) => {
   return produce(state, (draft) => {
     switch (action.type) {
       case ActionTypes.authRequest: {
-        console.log(action.payload);
         draft.loading = true;
         draft.signed = false;
         break;
