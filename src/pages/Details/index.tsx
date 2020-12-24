@@ -53,8 +53,8 @@ const Details: React.FC = () => {
   };
 
   const handleSort = () => {
-    switch()
-  }
+    
+  };
 
   return (
     <>
